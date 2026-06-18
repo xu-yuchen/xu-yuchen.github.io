@@ -1,0 +1,10 @@
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">{{ site.title }}</a>
+    <nav class="nav-links" aria-label="Section navigation">
+      {% for item in site.nav %}
+        <a href="#{{ item.id }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

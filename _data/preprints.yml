@@ -1,0 +1,11 @@
+- title: "Accelerating Distributed Deep Learning using Lossless Homomorphic Compression"
+  url: "https://arxiv.org/abs/2402.07529"
+  authors: "Haoyu Li, Yuchen Xu, Jiayi Chen, Rohit Dwivedula, Wenfei Wu, Keqiang He, Aditya Akella, Daehyeok Kim"
+  venue: "<span class='venue-key'>arXiv '24</span>"
+  year: 2024
+
+- title: "Fine-grained MoE Load Balancing with Linear Programming"
+  url: "https://arxiv.org/abs/2511.16947"
+  authors: "Chenqi Zhao, Wenfei Wu, Linhai Song, Yuchen Xu, Yitao Yuan"
+  venue: "<span class='venue-key'>arXiv '26</span>"
+  year: 2026

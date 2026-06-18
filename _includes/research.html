@@ -1,0 +1,29 @@
+<section id="research" class="section research">
+  <h2>Research</h2>
+  {% if site.data.research and site.data.research != empty %}
+  <div class="research-list">
+    {% for dir in site.data.research %}
+      <article class="research-item">
+        {% if dir.image %}<img class="research-img" src="{{ dir.image | relative_url }}" alt="{{ dir.title }}">{% endif %}
+        <div class="research-body">
+          <h3>{{ dir.title }}</h3>
+          {% if dir.blurb %}<p>{{ dir.blurb }}</p>{% endif %}
+          {% if dir.items %}
+          <ul class="research-items">
+            {% for it in dir.items %}<li>{{ it }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+          {% if dir.links %}
+          <p class="links">
+            {% if dir.links.page %}<a href="{{ dir.links.page }}"{% if dir.links.page contains '://' %} target="_blank" rel="noopener"{% endif %}>Project page</a>{% endif %}
+            {% if dir.links.code %}{% if dir.links.page %}<span class="sep">&middot;</span>{% endif %}<a href="{{ dir.links.code }}"{% if dir.links.code contains '://' %} target="_blank" rel="noopener"{% endif %}>Code</a>{% endif %}
+          </p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">Add research directions in <code>_data/research.yml</code>.</p>
+  {% endif %}
+</section>

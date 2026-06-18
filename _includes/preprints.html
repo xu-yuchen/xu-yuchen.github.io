@@ -1,0 +1,17 @@
+<section id="preprints" class="section publications">
+  <h2>Preprints</h2>
+  {% if site.data.preprints and site.data.preprints != empty %}
+  <!-- {% if site.publications_note %}<p class="pub-legend">{{ site.publications_note }}</p>{% endif %} -->
+  {% capture me %}<strong class="me">{{ site.author | default: site.title }}</strong>{% endcapture %}
+  <ul class="pub-list">
+    {% for pub in site.data.preprints %}
+      <li class="pub">
+        {% if pub.url %}<a class="pub-title" href="{{ pub.url }}"{% if pub.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}
+        <span class="pub-meta"><span class="pub-authors">{{ pub.authors | replace: site.author, me }}</span>.<br><span class="pub-venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}</span>{% if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif %}{% if pub.note %} <span class="pub-note">{{ pub.note }}</span>{% endif %}{% if pub.links %} <span class="pub-links">{% if pub.links.pdf %}<a href="{{ pub.links.pdf }}"{% if pub.links.pdf contains '://' %} target="_blank" rel="noopener"{% endif %}>PDF</a>{% endif %}{% if pub.links.code %}<a href="{{ pub.links.code }}"{% if pub.links.code contains '://' %} target="_blank" rel="noopener"{% endif %}>Code</a>{% endif %}{% if pub.links.page %}<a href="{{ pub.links.page }}"{% if pub.links.page contains '://' %} target="_blank" rel="noopener"{% endif %}>Page</a>{% endif %}</span>{% endif %}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">Add papers in <code>_data/preprints.yml</code>.</p>
+  {% endif %}
+</section>

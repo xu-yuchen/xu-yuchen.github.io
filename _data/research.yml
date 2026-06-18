@@ -1,0 +1,34 @@
+# Research directions. Shown in order.
+# Fields:
+#   title   (required)
+#   blurb   (optional) — one or two sentences introducing the direction
+#   items   (optional) — bullet list of specifics under the direction (inline HTML allowed)
+#   image   (optional) — path under assets/img/, e.g. /assets/img/theme1.png
+#   links   (optional) — page and/or code
+
+- title: "Collective Communication"
+  #blurb: >
+    #A one- or two-sentence description of this line of work: the question you
+    #study, why it matters, and the angle you take.
+  items:
+    - "<strong>MPCCS (EUROSYS '26)</strong>: Multipath collective communication with scale-up and scale-out networks, accelerating AI training."
+    - "<strong>FlexComm (LANMAN '26)</strong>: Flexible inter-collective scheduling without deadlocks, accelerating AI training."
+    
+- title: "In-Network Computing"
+  #blurb: >
+    #Another short description. Keep these concise — link out for details.
+  items:
+    - "<strong>Turbo (SIGCOMM '26)</strong>: In-network scaling-reduce on programmable switches to aggregate attention blocks, accelerating long-context AI inference."
+    - "<em>EPIC (SIGCOMM '26)</em>: Ethernet Polymorphic In-network Collective, for AI training and inference."
+    - "<em>INARouting (TON '26)</em>: Routing for hierarchical In-Network Aggregation, for AI training."
+    - "<em>PRISM (INCAS '25)</em>: Predictive scheduler for in-network aggregation, for AI training."
+    - "<em>LHC (arXiv '24)</em>: Lossless Homomorphic Compression algorithm with in-network aggregation, for AI training."
+
+- title: "Data Stream Mining / Network Measurement"
+  #blurb: >
+    #A one- or two-sentence description of this line of work: the question you
+    #study, why it matters, and the angle you take.
+  items:
+    - "<strong>MimoSketch (KDD '23 and TKDE '25)</strong>: An unbiased data structure and algorithm framework for distributed frequency-based data stream mining tasks, including item frequency estimation."
+    - "<strong>Cuckoo Counter (TON '23)</strong>: A cuckoo-hash-based data structure for frequency and top-k estimation in network measurement."
+

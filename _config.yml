@@ -1,0 +1,89 @@
+# =====================================================================
+#  EDIT THIS FILE to personalize your site.
+#  Note: changes to _config.yml require restarting the local server
+#  (Ctrl-C, then `bundle exec jekyll serve` again) to take effect.
+# =====================================================================
+
+# --- Identity ---------------------------------------------------------
+title: Yuchen Xu's Homepage            # your name (shown as the site title)
+author: Yuchen Xu                      # used to bold your name in author lists
+role: Ph.D. Student
+affiliation: Peking University
+email: xu.yuchen@pku.edu.cn
+
+# One short paragraph for the hero / About section. Inline HTML is allowed.
+bio: >
+  I am a fourth-year Ph.D. student with the Institute of Data Science and Engineering,
+  <a href="https://cs.pku.edu.cn/English/Home.htm">School of Computer Science</a>,
+  <a href="https://english.pku.edu.cn/">Peking University</a>,
+  under the supervision of Dr. <a href="https://wenfei-wu.github.io/">Wenfei Wu</a>.
+  My research focuses on distributed systems for AI,
+  including LLM training, inference, and multi-agent systems.
+  I graduated from the
+  <a href="https://eecs.pku.edu.cn/en/">School of Electronics Engineering and Computer Science</a>,
+  Peking University, with a Bachelor's degree in Computer Science and Technology,
+  and also from the <a href="https://en.nsd.pku.edu.cn/">National School of Development</a>,
+  Peking University, with a double Bachelor's degree in Economics.
+
+# Profile photo — drop your own image in assets/img/ and update this path.
+photo: /assets/img/profile.png
+photo_alt: April 2026 at the Edinburgh International Conference Centre, Edinburgh, United Kingdom          # image description (screen readers, SEO, broken-image text)
+# photo_caption: Yuchen Xu, 2025          # optional visible caption shown under the photo
+
+# --- Links ------------------------------------------------------------
+# Shown as a row in the hero and as a list in Contact.
+# Remove any you don't use; add more freely. Order is preserved.
+links:
+  - name: Email
+    url: mailto:xu.yuchen@pku.edu.cn
+    icon: email
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=ySXt7TQAAAAJ
+    icon: scholar
+  - name: dblp
+    url: https://dblp.org/pid/214/3905-3.html
+    icon: dblp
+  - name: ORCID
+    url: https://orcid.org/0000-0002-5765-3825
+    icon: orcid
+  - name: Semantic Scholar
+    url: https://www.semanticscholar.org/author/Yuchen-Xu/2051760077
+    icon: semanticscholar
+
+# Optional one-line intro shown above the contact list.
+# contact_intro: I am happy to connect about research, collaborations, and opportunities.
+
+# --- Navigation -------------------------------------------------------
+# Controls the top-nav order and labels. Each `id` must match a section id.
+nav:
+  - { id: about, label: About }
+  - { id: news, label: News }
+  - { id: publications, label: Publications }
+  - { id: preprints, label: Preprints }
+  - { id: research, label: Research }
+  - { id: services, label: Services }
+
+# --- Appearance -------------------------------------------------------
+accent: "#1a5fb4"      # primary accent color (links, highlights)
+
+# --- Publications -----------------------------------------------------
+publications_note: "(* Equal Contribution)"   # shared footnote shown once below the publication list
+
+# =====================================================================
+#  Jekyll / SEO settings — usually no need to change below this line.
+# =====================================================================
+url: "https://xu-yuchen.github.io"
+baseurl: ""
+lang: en
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .jekyll-cache

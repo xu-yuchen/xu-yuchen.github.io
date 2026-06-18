@@ -1,0 +1,12 @@
+<section id="services" class="section services">
+  <h2>Services</h2>
+  {% if site.data.services and site.data.services != empty %}
+  <ul class="services-list">
+    {% for service in site.data.services %}
+      <li>{{ service.title }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">Add services in <code>_data/services.yml</code>.</p>
+  {% endif %}
+</section>

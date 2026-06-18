@@ -1,0 +1,18 @@
+<section id="about" class="section about">
+  <div class="about-grid">
+    <figure class="avatar-fig">
+      <img class="avatar" src="{{ site.photo | relative_url }}" alt="{% if site.photo_alt %}{{ site.photo_alt }}{% else %}Portrait of {{ site.author }}{% endif %}">
+      {% if site.photo_caption %}<figcaption class="photo-caption">{{ site.photo_caption }}</figcaption>{% endif %}
+    </figure>
+    <div class="about-header">
+      <h1 class="name">{{ site.author }}</h1>
+      <p class="role">{{ site.role }}{% if site.affiliation %} &middot; {{ site.affiliation }}{% endif %}</p>
+      {% if site.links %}
+      <p class="links">
+        {% for link in site.links %}<a class="link-item" href="{{ link.url }}"{% if link.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{% if link.icon %}{% include icon.html name=link.icon %}{% endif %}<span>{{ link.name }}</span></a>{% if forloop.first %}<span class="sep">&middot;</span>{% endif %}{% endfor %}
+      </p>
+      {% endif %}
+    </div>
+    <p class="bio">{{ site.bio }}</p>
+  </div>
+</section>

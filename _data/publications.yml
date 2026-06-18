@@ -1,0 +1,76 @@
+# Publications. Listed in exactly the order you write them here (your sequence).
+# Your name (set as `author` in _config.yml) is bolded in the author list.
+#
+# Fields:
+#   title    (required)
+#   url      (optional) — if set, the title becomes a clickable link
+#   authors  (required) — comma-separated; write your name exactly as in _config.yml
+#   venue    (required) — conference / journal name
+#   year     (optional) — shown after the venue
+#   award    (optional) — shows a small badge, e.g. "Oral", "Best Paper"
+#   note     (optional) — small line under the entry, e.g. "* Equal contribution" (must be quoted)
+#   links    (optional) — any of: pdf, code, page
+#
+# Co-first authors: put * after each equal contributor in `authors`
+#   (e.g. "Yuchen Xu*, Jane Coauthor*, ..."), then add: note: "* Equal contribution"
+
+- title: "Multipath Collective Communication Beyond Scale-up Networks in GPU Clouds"
+  url: "https://dl.acm.org/doi/10.1145/3767295.3769330"
+  authors: "Yuchen Xu, Jianglong Nie, Baojia Li, Mingzhuo Chen, Hao Lu, Guanyu Qu, Zhenchuan Liu, Shuangshuang Yin, Xiaojie Huang, Chunzhi He, Yinben Xia, Quan Wen, Xiang Li, Zekun He, Yachen Wang, Xianneng Zou, Congcong Miao, Wenfei Wu"
+  venue: "21st European Conference on Computer Systems (<span class='venue-key'>EUROSYS ’26</span>)"
+  year: 2026
+
+- title: "MimoSketch: A Framework to Mine Item Frequency on Multiple Nodes with Sketches"
+  url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  authors: "Yuchen Xu, Wenfei Wu, Bohan Zhao, Tong Yang, Yikai Zhao"
+  venue: "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<span class='venue-key'>KDD ’23</span>)"
+  year: 2023
+
+- title: "Enabling Flexible and Efficient Collective Communication Scheduling in Distributed AI"
+  #url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  authors: "Yuchen Xu, Xiting Ju, Wenfei Wu"
+  venue: "2026 IEEE 32nd International Symposium on Local and Metropolitan Area Networks (<span class='venue-key'>LANMAN '26</span>)"
+  year: 2026
+
+- title: "Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation"
+  #url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  authors: "Ying Wan*, Yuchen Xu*, Chuwen Zhang, Yingsheng Huang, Yong Feng, Wenquan Xu, Jialin Li, Mingwei Xu, Wenfei Wu, Congcong Miao"
+  venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM ’26</span>)"
+  year: 2026
+
+- title: "MimoSketch: A Framework for Frequency-Based Mining Tasks on Multiple Nodes With Sketches"
+  url: "https://ieeexplore.ieee.org/document/10816464/"
+  authors: "Wenfei Wu*, Yuchen Xu*"
+  venue: "IEEE Transactions on Knowledge and Data Engineering (<span class='venue-key'>TKDE ’25</span>)"
+  year: 2025
+
+- title: "Cuckoo Counter: Adaptive Structure of Counters for Accurate Frequency and Top-k Estimation"
+  url: "https://ieeexplore.ieee.org/document/10005066/"
+  authors: "Qilong Shi*, Yuchen Xu*, Jiuhua Qi*, Wenjun Li, Tong Yang, Yang Xu, Yi Wang"
+  venue: "IEEE/ACM Transactions on Networking (<span class='venue-key'>TON ’23</span>)"
+  year: 2023
+
+- title: "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet"
+  url: "https://arxiv.org/abs/2605.18683"
+  authors: "Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, Xiangrui Yang, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu"
+  venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM ’26</span>)"
+  year: 2026
+
+- title: "TurboTSS: A Packet Classifier with Fast Rule Lookup and Update for the Cloud"
+  #url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  authors: "Shaoke Fang*, Qingsong Liu*, Yuchen Xu, Weize Gao, Jianglong Nie, Wenfei Wu"
+  venue: "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications (<span class='venue-key'>INFOCOM ’26</span>)"
+  year: 2026
+
+- title: "INARouting: Efficient Multi-Job Routing Optimization for Hierarchical In-Network Aggregation"
+  url: "https://ieeexplore.ieee.org/document/11417310/"
+  authors: "Jianglong Nie, Yidan Yuan, Yuchen Xu, Yitao Yuan, Kehan Yao, Lu Lu, Xiaodong Duan, Wenfei Wu"
+  venue: "IEEE Transactions on Networking (<span class='venue-key'>TON ’26</span>)"
+  year: 2026
+
+- title: "PRISM: A Workload-Predictive Job Scheduler for Clusters with In-Network Aggregation Capability"
+  url: "https://dl.acm.org/doi/10.1145/3769699.3771587"
+  authors: "Yidan Yuan, Jianglong Nie, Yuchen Xu, Yitao Yuan, Shaoke Fang, Wenfei Wu"
+  venue: "Proceedings of the ACM CoNext Workshop on In-Network Computing and AI for Distributed Systems (<span class='venue-key'>INCAS ’25</span>)"
+  year: 2025
+
