@@ -57,7 +57,7 @@
   year: 2026
 
 - title: "TurboTSS: A Packet Classifier with Fast Rule Lookup and Update for the Cloud"
-  #url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  url: "https://ieeexplore.ieee.org/document/11571597/"
   authors: "Shaoke Fang*, Qingsong Liu*, Yuchen Xu, Weize Gao, Jianglong Nie, Wenfei Wu"
   venue: "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications (<span class='venue-key'>INFOCOM ’26</span>)"
   year: 2026
