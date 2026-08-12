@@ -33,7 +33,7 @@
   year: 2026
 
 - title: "Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation"
-  #url: "https://dl.acm.org/doi/10.1145/3580305.3599433"
+  url: "https://dl.acm.org/doi/10.1145/3789240.3829140"
   authors: "Ying Wan*, Yuchen Xu*, Chuwen Zhang, Yingsheng Huang, Yong Feng, Wenquan Xu, Jialin Li, Mingwei Xu, Wenfei Wu, Congcong Miao"
   venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM '26</span>)"
   year: 2026
@@ -51,7 +51,7 @@
   year: 2023
 
 - title: "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet"
-  url: "https://arxiv.org/abs/2605.18683"
+  url: "https://dl.acm.org/doi/10.1145/3789240.3829196"
   authors: "Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, Xiangrui Yang, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu"
   venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM '26</span>)"
   year: 2026
