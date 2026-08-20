@@ -34,6 +34,7 @@
 
 - title: "Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation"
   url: "https://dl.acm.org/doi/10.1145/3789240.3829140"
+  video: "https://youtu.be/lwEoSV67h2A?si=IPjK_WAxbxRjA1ua"
   authors: "Ying Wan*, Yuchen Xu*, Chuwen Zhang, Yingsheng Huang, Yong Feng, Wenquan Xu, Jialin Li, Mingwei Xu, Wenfei Wu, Congcong Miao"
   venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM '26</span>)"
   year: 2026

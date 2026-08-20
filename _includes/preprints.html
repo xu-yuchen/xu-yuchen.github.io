@@ -6,7 +6,7 @@
   <ul class="pub-list">
     {% for pub in site.data.preprints %}
       <li class="pub">
-        {% if pub.url %}<a class="pub-title" href="{{ pub.url }}"{% if pub.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}
+        {% if pub.url %}<a class="pub-title" href="{{ pub.url }}"{% if pub.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}{% if pub.video %}<a class="pub-video" href="{{ pub.video }}"{% if pub.video contains '://' %} target="_blank" rel="noopener"{% endif %} aria-label="Watch video" title="Watch video">{% include icon.html name='youtube' %}</a>{% endif %}
         <span class="pub-meta"><span class="pub-authors">{{ pub.authors | replace: site.author, me }}</span>.<br><span class="pub-venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}</span>{% if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif %}{% if pub.note %} <span class="pub-note">{{ pub.note }}</span>{% endif %}{% if pub.links %} <span class="pub-links">{% if pub.links.pdf %}<a href="{{ pub.links.pdf }}"{% if pub.links.pdf contains '://' %} target="_blank" rel="noopener"{% endif %}>PDF</a>{% endif %}{% if pub.links.code %}<a href="{{ pub.links.code }}"{% if pub.links.code contains '://' %} target="_blank" rel="noopener"{% endif %}>Code</a>{% endif %}{% if pub.links.page %}<a href="{{ pub.links.page }}"{% if pub.links.page contains '://' %} target="_blank" rel="noopener"{% endif %}>Page</a>{% endif %}</span>{% endif %}</span>
       </li>
     {% endfor %}
