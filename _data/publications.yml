@@ -53,6 +53,7 @@
 
 - title: "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet"
   url: "https://dl.acm.org/doi/10.1145/3789240.3829196"
+  video: "https://youtu.be/i5AxQu-hWLg?si=DyMtmXAK76tjBZmo"
   authors: "Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, Xiangrui Yang, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu"
   venue: "ACM SIGCOMM 2026 Conference (<span class='venue-key'>SIGCOMM '26</span>)"
   year: 2026
