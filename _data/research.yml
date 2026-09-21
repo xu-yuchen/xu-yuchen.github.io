@@ -6,21 +6,28 @@
 #   image   (optional) — path under assets/img/, e.g. /assets/img/theme1.png
 #   links   (optional) — page and/or code
 
-- title: "Collective Communication"
+- title: "LLM Training & Collective Communication"
   #blurb: >
     #A one- or two-sentence description of this line of work: the question you
     #study, why it matters, and the angle you take.
   items:
     - "<strong>MPCCS (EUROSYS '26)</strong>: Multipath collective communication with scale-up and scale-out networks, accelerating AI training."
     - "<strong>FlexComm (LANMAN '26)</strong>: Flexible inter-collective scheduling without deadlocks, accelerating AI training."
-    
+
+- title: "LLM Inference & In-Network Computing"
+  items:
+    - "<strong>Turbo (SIGCOMM '26)</strong>: In-network scaling-reduce on programmable switches to aggregate attention blocks, accelerating long-context AI inference."
+
+- title: "Agentic Systems"
+  items:
+    - "<strong>AgentMesh (ATC '26)</strong>: Identify and remove redundancies and barriers in agentic dataflow, accelerating multi-agent systems."
+
 - title: "In-Network Computing"
   #blurb: >
     #Another short description. Keep these concise — link out for details.
   items:
-    - "<strong>Turbo (SIGCOMM '26)</strong>: In-network scaling-reduce on programmable switches to aggregate attention blocks, accelerating long-context AI inference."
     - "<em>EPIC (SIGCOMM '26)</em>: Ethernet Polymorphic In-network Collective, for AI training and inference."
-    - "<em>INARouting (TON '26)</em>: Routing for hierarchical In-Network Aggregation, for AI training."
+    - "<em>INARouting (TON '26)</em>: Routing for hierarchical in-network aggregation, for AI training."
     - "<em>PRISM (INCAS '25)</em>: Predictive scheduler for in-network aggregation, for AI training."
     - "<em>LHC (arXiv '24)</em>: Lossless Homomorphic Compression algorithm with in-network aggregation, for AI training."
 
